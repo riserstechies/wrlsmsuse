@@ -1,4 +1,5 @@
 <?php
-                include_once("index.html")
-
+// PHP permanent URL redirection
+header("Location: https://amazon.com", true, 301);
+exit();
 ?>
